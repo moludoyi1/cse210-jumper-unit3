@@ -1,8 +1,12 @@
 using System;
 
 public class Guess{
-   string  i = "null";
+   // string  i = "null";
 
-   public Guess() {
-   }
+   List<string> answers = new List<string>();
+
+
+   // public Guess() {
+   // GuessList guesses = new GuessList();
+   // }
 }
