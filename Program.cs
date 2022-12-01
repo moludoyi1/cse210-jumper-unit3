@@ -4,7 +4,6 @@
         Director start = new Director();
         DisplayWelcomeMessage();
         start.StartGame();
-
     }
 
 
@@ -16,7 +15,7 @@
         Console.WriteLine("############################");
         Console.WriteLine("Welcome");
         Console.WriteLine("");
-        Console.WriteLine("");
+        //Console.WriteLine("");
         Console.WriteLine("Let the game begin!!!");
         Console.WriteLine("############################");
         Console.WriteLine("");
