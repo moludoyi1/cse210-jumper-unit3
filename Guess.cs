@@ -9,10 +9,10 @@ public class Guess{
    }
 
     public List<string> stringunderscores(string underscores) {
-        string stringunderscores = "";
-        foreach (var character in rgen){
-            underscores += '_';
-        }
+        // string stringunderscores = "";
+        // foreach (var character in rgen){
+        underscores += '_';
+        // }
         return underscores;
     }
 
