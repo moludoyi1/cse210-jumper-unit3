@@ -25,6 +25,7 @@ class Director {
         guess.answersAppend(input);
     }
     public void GetUpdates() {
+        
 
     }
 

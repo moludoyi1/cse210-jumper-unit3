@@ -8,8 +8,7 @@ public class Guess{
       return answers;
    }
 
-    public List<string> stringunderscores(string ) {
-      
+    public List<string> stringunderscores(string underscores) {
         string stringunderscores = "";
         foreach (var character in rgen){
             underscores += '_';
