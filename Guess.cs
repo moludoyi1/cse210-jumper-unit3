@@ -8,12 +8,11 @@ public class Guess{
       return answers;
    }
 
-    public List<string> stringunderscores(string underscores) {
-        // string stringunderscores = "";
-        // foreach (var character in rgen){
-        underscores += '_';
-        // }
-        return underscores;
+    public string guessUnderscore(string Movies) { //getting the numbers of characters from the guess
+        string underscores = "";
+        for (int i = 0; i < Movies.Length; i++){
+            underscores += "_";
+        }
+        return underscores;  
     }
-
 }

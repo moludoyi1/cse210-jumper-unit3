@@ -4,6 +4,7 @@ class Director {
 
     Guess guess = new Guess();
     Jumper jumper = new Jumper();
+    // List list = new List();
     
     bool NotGameOver = true;
     public void StartGame() {
