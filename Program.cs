@@ -1,4 +1,7 @@
-﻿class Program {
+﻿// Michael Oludoyi
+// cse210-Jumper Game
+
+class Program {
 
     static void Main() {
         Director start = new Director();
